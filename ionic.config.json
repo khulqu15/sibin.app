@@ -1,0 +1,7 @@
+{
+  "name": "sibin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
