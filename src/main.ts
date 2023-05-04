@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
-
+import 'tailwindcss/tailwind.css'
+import 'daisyui';
+import 'animate.css';
 import { IonicVue } from '@ionic/vue';
 
 /* Core CSS required for Ionic components to work properly */
@@ -11,6 +13,7 @@ import '@ionic/vue/css/core.css';
 import '@ionic/vue/css/normalize.css';
 import '@ionic/vue/css/structure.css';
 import '@ionic/vue/css/typography.css';
+import Vue3TouchEvents from "vue3-touch-events";
 
 /* Optional CSS utils that can be commented out */
 import '@ionic/vue/css/padding.css';
@@ -25,7 +28,8 @@ import './theme/variables.css';
 
 const app = createApp(App)
   .use(IonicVue)
-  .use(router);
+  .use(router)
+  .use(Vue3TouchEvents);
   
 router.isReady().then(() => {
   app.mount('#app');
