@@ -26,6 +26,7 @@
                 <p class="text-sm m-0">Total Koinku</p>
               </div>
               <div>
+                
                 <Icon icon="ph:coin-duotone" class="text-5xl"/>
               </div>
             </div>
