@@ -9,7 +9,7 @@
                     </button>
                 </div>
                 <div>
-                    <div class="avatar btn btn-ghost px-0 hover:bg-base-200">
+                    <div @click="$router.push({name: 'Profile'})" class="avatar btn btn-ghost px-0 hover:bg-base-200">
                         <div class="w-12 mask mask-squircle">
                             <img v-if="!isEmpty(user)" :src="`${user.photoURL}`" alt="Photo profile"/>
                             <img v-else src="/assets/avatar.png" alt="Photo profile"/>
@@ -20,7 +20,7 @@
 
             <slot></slot>
         
-            <div ref="appFooter" id="app-footer" class="fixed bottom-0 left-0 w-full p-6">
+            <div :class="{'opacity-0 z-0': $route.name === 'Profile'}" ref="appFooter" id="app-footer" class="fixed transition-all bottom-0 left-0 w-full p-6">
                 <div class="w-full rounded-2xl bg-base-200 p-6 shadow-xl flex items-center justify-items-between justify-between">
                     <div class="text-base-content hover:text-primary btn btn-ghost transition-all">
                         <Icon icon="solar:home-smile-angle-bold-duotone" class="text-3xl"/>

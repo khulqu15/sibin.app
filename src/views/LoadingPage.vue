@@ -55,14 +55,15 @@ onMounted(() => {
   }
 }
 .splashscreen {
-    animation-delay: 0.5s;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 .splashscreen.vanishIn {
-    animation-name: vanishIn;
+  opacity: 0;
+  animation-name: vanishIn;
 }
 .splashscreen.vanishOut {
-    animation-name: vanishOut;
+  animation-name: vanishOut;
 }
 </style>

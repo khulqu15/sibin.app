@@ -23,27 +23,27 @@
       </div>
       <div class="mt-4">
         <h4 class="font-bold text-base-content">Pelayanan Lain</h4>
-        <div class="grid grid-cols-2 gap-4">
-          <button class="btn h-40 bg-base-200 rounded-2xl p-4 transition-all text-center text-base-content hover:text-white hover:bg-primary">
-            <div class="w-full">
+        <div class="grid grid-cols-4 gap-3">
+          <button class="btn inline-block h-40 bg-base-200 rounded-2xl p-2 transition-all text-center text-base-content hover:text-white hover:bg-primary">
+            <div class="w-full my-3">
               <Icon icon="solar:smart-home-angle-bold-duotone" class="inline-block text-4xl"/>
             </div>
             User Request
           </button>
-          <button class="btn h-40 bg-base-200 rounded-2xl p-4 transition-all text-center text-base-content hover:text-white hover:bg-primary">
-            <div class="w-full">
+          <button class="btn inline-block h-40 bg-base-200 rounded-2xl p-2 transition-all text-center text-base-content hover:text-white hover:bg-primary">
+            <div class="w-full my-3">
               <Icon icon="solar:trash-bin-2-bold-duotone" class="inline-block text-4xl"/>
             </div>
             Sibin Smart
           </button>
-          <button class="btn h-40 bg-base-200 rounded-2xl p-4 transition-all text-center text-base-content hover:text-white hover:bg-primary">
-            <div class="w-full">
+          <button class="btn inline-block h-40 bg-base-200 rounded-2xl p-2 transition-all text-center text-base-content hover:text-white hover:bg-primary">
+            <div class="w-full my-3">
               <Icon icon="ph:coin-duotone" class="inline-block text-4xl"/>
             </div>
             Sibin Coin
           </button>
-          <button class="btn h-40 bg-base-200 rounded-2xl p-4 transition-all text-center text-base-content hover:text-white hover:bg-primary">
-            <div class="w-full">
+          <button class="btn inline-block h-40 bg-base-200 rounded-2xl p-2 transition-all text-center text-base-content hover:text-white hover:bg-primary">
+            <div class="w-full my-3">
               <Icon icon="solar:book-bookmark-bold-duotone" class="inline-block text-4xl"/>
             </div>
             Sibin Edu
@@ -82,7 +82,6 @@ onBeforeMount(() => {
 })
 
 const setupRealtimeListener = () => {
-  console.log("Hallo")
   const dataRef = firef(db, '/')
   console.log(dataRef)
   onValue(dataRef, (snapshot) => {
