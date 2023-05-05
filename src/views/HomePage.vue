@@ -1,10 +1,10 @@
 <template>
-  <app-layout>
+  <app-layout page="Home">
     <div id="container" class="bg-base-100 p-8 min-h-screen space-y-3 pb-32">
       <div>
-        <div class="border-2 p-6 overflow-hidden relative border-base-content/50 bg-base-100 w-full rounded-3xl">
-          <img src="/assets/illustration/home.png" class="absolute -right-3 bottom-28" alt="Home Illustration">
-          <div class="w-8/12 space-y-3 text-base-content">
+        <div class="border-2 p-5 overflow-hidden relative border-base-content/50 bg-base-100 w-full rounded-3xl">
+          <img src="/assets/illustration/home.png" class="absolute -right-2 bottom-20" alt="Home Illustration">
+          <div class="w-7/12 space-y-3 text-base-content relative z-20">
             <h4 class="font-bold">Buat kota kita indah, Minimalisir Tumpukan Sampah</h4>
             <p class="text-sm">Pantau terus, jangan lengah dengan tumpukan sampah</p>
           </div>

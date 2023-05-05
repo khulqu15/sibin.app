@@ -2,10 +2,6 @@
   <app-layout>
     <div id="container"  @mousemove="handleMouseMove($event)" @mouseup="handleMouseUp($event)" class="bg-base-100 relative p-8 min-h-screen space-y-3">
       <div>
-        <div @click="$router.push({name: 'Home'})" class="btn btn-ghost mb-3">
-            <Icon icon="solar:smart-home-angle-bold-duotone" class="inline-block text-2xl mr-3"/>
-            Kembali
-        </div>
         <div class="border-2 p-4 overflow-hidden relative border-base-content/50 bg-base-100 w-full rounded-3xl">
           <div class="w-full space-y-3 text-base-content">
             <div>
