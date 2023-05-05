@@ -3,7 +3,7 @@
     <div id="container" class="bg-base-100 p-8 min-h-screen space-y-3 pb-32">
       <div>
         <div class="border-2 p-6 overflow-hidden relative border-base-content/50 bg-base-100 w-full rounded-3xl">
-          <img src="/assets/illustration/home.png" class="absolute right-0 top-8" alt="Home Illustration">
+          <img src="/assets/illustration/home.png" class="absolute -right-3 bottom-28" alt="Home Illustration">
           <div class="w-8/12 space-y-3 text-base-content">
             <h4 class="font-bold">Buat kota kita indah, Minimalisir Tumpukan Sampah</h4>
             <p class="text-sm">Pantau terus, jangan lengah dengan tumpukan sampah</p>
@@ -23,7 +23,7 @@
       </div>
       <div class="mt-4">
         <h4 class="font-bold text-base-content">Pelayanan Lain</h4>
-        <div class="grid grid-cols-4 gap-3">
+        <div class="grid grid-cols-2 gap-3">
           <button class="btn inline-block h-40 bg-base-200 rounded-2xl p-2 transition-all text-center text-base-content hover:text-white hover:bg-primary">
             <div class="w-full my-3">
               <Icon icon="solar:smart-home-angle-bold-duotone" class="inline-block text-4xl"/>
