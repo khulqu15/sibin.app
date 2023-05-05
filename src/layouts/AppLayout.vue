@@ -1,8 +1,8 @@
 <template>
   <ion-page>
     <ion-content>
-        <div ref="appContainer" id="app-container">
-            <div ref="appHeader" id="app-header" class="px-8 pt-8 flex items-center justify-between">
+        <div ref="appContainer" class="bg-base-100" id="app-container">
+            <div ref="appHeader" id="app-header" class="px-8 pt-8 flex bg-base-100 items-center justify-between">
                 <div>
                     <button class="btn btn-ghost">
                         <Icon icon="ri:notification-2-line" class="text-base-content text-xl"/>
