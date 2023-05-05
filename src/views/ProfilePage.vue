@@ -6,10 +6,10 @@
             <Icon icon="solar:smart-home-angle-bold-duotone" class="inline-block text-2xl mr-3"/>
             Kembali
         </div>
-        <div class="border-2 p-6 overflow-hidden relative border-base-content/50 bg-base-100 w-full rounded-3xl">
-          <div class="w-full flex gap-x-3 justify-start items-center space-y-3 text-base-content">
+        <div class="border-2 p-4 overflow-hidden relative border-base-content/50 bg-base-100 w-full rounded-3xl">
+          <div class="w-full space-y-3 text-base-content">
             <div>
-                <div class="w-24 mt-5 mask mask-squircle">
+                <div class="w-16 mask mask-squircle">
                     <img v-if="!isEmpty(user)" :src="`${user.photoURL}`" alt="Photo profile"/>
                     <img v-else src="/assets/avatar.png" alt="Photo profile"/>
                 </div>
@@ -26,7 +26,7 @@
                 <p class="text-sm m-0">Total Koinku</p>
               </div>
               <div>
-                
+
                 <Icon icon="ph:coin-duotone" class="text-5xl"/>
               </div>
             </div>
